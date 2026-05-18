@@ -1,3 +1,7 @@
+import album from '../assets/album.jpg'
+import photocard from '../assets/photocard.jpg'
+import group2 from '../assets/group2.jpg'
+
 function Katalog() {
   return (
     <div className="page">
@@ -6,19 +10,19 @@ function Katalog() {
       <div className="card-container">
 
         <div className="card">
-          <img src="/images/album.jpg" alt="Album" />
+          <img src={album} alt="Album" />
           <h2>Album</h2>
           <p>First Album</p>
         </div>
 
         <div className="card">
-          <img src="/images/photocard.jpg" alt="Photocard" />
+          <img src={photocard} alt="Photocard" />
           <h2>Photocard</h2>
           <p>Exclusive member photocard</p>
         </div>
 
         <div className="card">
-          <img src="/images/group2.jpg" alt="Group" />
+          <img src={group2} alt="Group2" />
           <h2>Group Package</h2>
           <p>Special CORTIS group content</p>
         </div>

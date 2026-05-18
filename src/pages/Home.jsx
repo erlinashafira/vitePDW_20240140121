@@ -1,8 +1,10 @@
+import banner from '../assets/banner.jpg'
+
 function Home() {
   return (
     <div className="page">
 
-      <img src="/images/banner.jpg" className="banner" />
+      <img src={banner} className="banner" />
 
       <h1 className="title">
         Selamat datang di fansite Cortis!

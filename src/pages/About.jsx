@@ -1,9 +1,11 @@
+import group from '../assets/group.jpg'
+
 function About() {
   return (
     <div className="page">
       <h1>About CORTIS!</h1>
 
-      <img src="/images/group.jpg" className="about-img" />
+      <img src={group} className="about-img" />
 
       <p>
         Pada tahun 2024, Big Hit Music mengumumkan pembentukan boy group
